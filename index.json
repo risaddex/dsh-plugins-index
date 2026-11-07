@@ -45,6 +45,12 @@
           "en": "Notifications",
           "pt-br": "Notificações"
         }
+      },
+      "memory": {
+        "title": {
+          "en": "Memory",
+          "pt-br": "Memória"
+        }
       }
     }
   },
@@ -83,7 +89,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/risaddex/dsh-plugins",
-            "commit": "43b05a03ef874287c8d404688703863d3697144d",
+            "commit": "877569dc4b6b95d265cfda06e0ff40966e4dca37",
             "path": "packages/dsh-plugin-langsmith"
           },
           "engines": {
@@ -127,7 +133,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/risaddex/dsh-plugins",
-            "commit": "43b05a03ef874287c8d404688703863d3697144d",
+            "commit": "877569dc4b6b95d265cfda06e0ff40966e4dca37",
             "path": "packages/dsh-plugin-linear"
           },
           "engines": {
@@ -143,8 +149,8 @@
         "pt-br": "PR Auto-fix"
       },
       "description": {
-        "en": "Watches the session's GitHub pull request and wakes the agent with a <ci-monitor-event> on CI failures, merge conflicts and new review comments. Adds a PR Auto-fix tab to the right sidebar; complements dsh-git-manager.",
-        "pt-br": "Monitora o pull request da sessão e acorda o agente com um <ci-monitor-event> em falha de CI, conflito de merge e novos comentários de review. Adiciona a aba PR Auto-fix no sidebar direito; complementa o dsh-git-manager."
+        "en": "Watches the session's pull request on GitHub (github.com or Enterprise) or a self-hosted Gitea instance and wakes the agent with a <ci-monitor-event> on CI failures, merge conflicts and new review comments. Adds a PR Auto-fix tab to the right sidebar; complements dsh-git-manager.",
+        "pt-br": "Monitora o pull request da sessão no GitHub (github.com ou Enterprise) ou em uma instância Gitea e acorda o agente com um <ci-monitor-event> em falha de CI, conflito de merge e novos comentários de review. Adiciona a aba PR Auto-fix no sidebar direito; complementa o dsh-git-manager."
       },
       "author": "risaddex",
       "homepage": "https://github.com/risaddex/dsh-plugins/tree/main/packages/dsh-plugin-pr-autofix",
@@ -160,17 +166,20 @@
           "github",
           "pull-request",
           "ci",
-          "autofix"
+          "autofix",
+          "gitea",
+          "tea",
+          "code-review"
         ]
       },
       "versions": [
         {
-          "version": "0.1.0",
-          "publishTimestamp": 1793735869,
+          "version": "0.2.0",
+          "publishTimestamp": 1794078366,
           "source": {
             "type": "git",
             "url": "https://github.com/risaddex/dsh-plugins",
-            "commit": "43b05a03ef874287c8d404688703863d3697144d",
+            "commit": "877569dc4b6b95d265cfda06e0ff40966e4dca37",
             "path": "packages/dsh-plugin-pr-autofix"
           },
           "engines": {
@@ -216,6 +225,44 @@
           },
           "engines": {
             "dsh": "0.2.1-rc.5 || 0.2.2-rc.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-plugin-ai-memory",
+      "title": {
+        "en": "AI Memory",
+        "pt-br": "AI Memory"
+      },
+      "description": {
+        "en": "Runs the ai-memory lifecycle hooks, wires the ai-memory MCP server (local or remote workstream) and adds a left-rail panel to configure and verify the connection.",
+        "pt-br": "Executa os hooks de ciclo de vida do ai-memory, conecta o servidor MCP do ai-memory (local ou workstream remoto) e adiciona um painel no rail esquerdo para configurar e verificar a conexão."
+      },
+      "author": "risaddex",
+      "homepage": "https://github.com/risaddex/dsh-plugin-ai-memory",
+      "repository": {
+        "url": "https://github.com/risaddex/dsh-plugin-ai-memory"
+      },
+      "metadata": {
+        "category": "memory",
+        "keywords": [
+          "dsh-plugin",
+          "deepseek-harness",
+          "ai-memory",
+          "memory",
+          "hooks",
+          "mcp"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1794078403,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/risaddex/dsh-plugin-ai-memory",
+            "commit": "4b68fa89f283fe95cb47dbbc71c110bdc3228d3b"
           }
         }
       ]

@@ -10,8 +10,9 @@ HTTP without credentials, while the plugin repositories are private.
 | - | - | - |
 | [dsh-plugin-langsmith](https://github.com/risaddex/dsh-plugins) | 0.1.0 | Traces every DeepSeek Harness turn, step, model call and tool call into LangSmith — prompts, tool results, token usage, subagent trees and subscription model/account labels. Configured from Settings → Plugins. |
 | [dsh-plugin-linear](https://github.com/risaddex/dsh-plugins) | 0.1.0 | Adds a Linear entry to the left sidebar: the newest issues assigned to you and the issues waiting in review states, from every configured Linear workspace (multi-account). Also gives the agent linear_accounts / linear_issues / linear_issue with explicit alias:IDENTIFIER refs. |
-| [dsh-plugin-pr-autofix](https://github.com/risaddex/dsh-plugins) | 0.1.0 | Watches the session's GitHub pull request and wakes the agent with a <ci-monitor-event> on CI failures, merge conflicts and new review comments. Adds a PR Auto-fix tab to the right sidebar; complements dsh-git-manager. |
+| [dsh-plugin-pr-autofix](https://github.com/risaddex/dsh-plugins) | 0.2.0 | Watches the session's pull request on GitHub (github.com or Enterprise) or a self-hosted Gitea instance and wakes the agent with a <ci-monitor-event> on CI failures, merge conflicts and new review comments. Adds a PR Auto-fix tab to the right sidebar; complements dsh-git-manager. |
 | [dsh-notifier](https://github.com/risaddex/dsh-notifier) | 0.13.1 | Outbound notifications across 28 chat and push channels plus 6 inbound control channels, with a native Notify & Control UI and live outbound configuration. |
+| [dsh-plugin-ai-memory](https://github.com/risaddex/dsh-plugin-ai-memory) | 0.2.0 | Runs the ai-memory lifecycle hooks, wires the ai-memory MCP server (local or remote workstream) and adds a left-rail panel to configure and verify the connection. |
 
 ## Add it to DeepSeek Harness
 
