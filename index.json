@@ -89,7 +89,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/risaddex/dsh-plugins",
-            "commit": "877569dc4b6b95d265cfda06e0ff40966e4dca37",
+            "commit": "44ad220d244ab6f5e202a8c7a9026ae44861da53",
             "path": "packages/dsh-plugin-langsmith"
           },
           "engines": {
@@ -133,7 +133,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/risaddex/dsh-plugins",
-            "commit": "877569dc4b6b95d265cfda06e0ff40966e4dca37",
+            "commit": "44ad220d244ab6f5e202a8c7a9026ae44861da53",
             "path": "packages/dsh-plugin-linear"
           },
           "engines": {
@@ -179,8 +179,54 @@
           "source": {
             "type": "git",
             "url": "https://github.com/risaddex/dsh-plugins",
-            "commit": "877569dc4b6b95d265cfda06e0ff40966e4dca37",
+            "commit": "44ad220d244ab6f5e202a8c7a9026ae44861da53",
             "path": "packages/dsh-plugin-pr-autofix"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.5"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-plugin-secure-env-ingress",
+      "title": {
+        "en": "Secure env ingress",
+        "pt-br": "Ingress seguro de segredos"
+      },
+      "description": {
+        "en": "One-use HTTPS forms that carry a secret from the human to the dsh-vault without ever entering chat, tool output or the model context. Adds secure_env_request / secure_env_await / secure_env_status / secure_env_cancel / secure_operation and writes through the vault's own tools, so its encryption and approval policy still apply.",
+        "pt-br": "Formulários HTTPS de uso único que levam um segredo do humano até o dsh-vault sem passar pelo chat, pela saída das ferramentas ou pelo contexto do modelo. Adiciona secure_env_request / secure_env_await / secure_env_status / secure_env_cancel / secure_operation e grava pelas próprias ferramentas do vault, preservando a criptografia e a política de aprovação."
+      },
+      "author": "risaddex",
+      "homepage": "https://github.com/risaddex/dsh-plugins/tree/main/packages/dsh-plugin-secure-env-ingress",
+      "repository": {
+        "url": "https://github.com/risaddex/dsh-plugins",
+        "directory": "packages/dsh-plugin-secure-env-ingress"
+      },
+      "metadata": {
+        "category": "tools",
+        "keywords": [
+          "dsh-plugin",
+          "deepseek-harness",
+          "vault",
+          "secrets",
+          "https",
+          "ingress",
+          "env",
+          "credentials",
+          "security"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1794079684,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/risaddex/dsh-plugins",
+            "commit": "44ad220d244ab6f5e202a8c7a9026ae44861da53",
+            "path": "packages/dsh-plugin-secure-env-ingress"
           },
           "engines": {
             "dsh": ">=0.2.1-rc.5"
@@ -258,11 +304,11 @@
       "versions": [
         {
           "version": "0.2.0",
-          "publishTimestamp": 1794078403,
+          "publishTimestamp": 1794079816,
           "source": {
             "type": "git",
             "url": "https://github.com/risaddex/dsh-plugin-ai-memory",
-            "commit": "4b68fa89f283fe95cb47dbbc71c110bdc3228d3b"
+            "commit": "4d844979127101799b86457be14ef3a001f1851e"
           }
         }
       ]
