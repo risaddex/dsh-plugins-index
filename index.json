@@ -89,7 +89,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/risaddex/dsh-plugins",
-            "commit": "44ad220d244ab6f5e202a8c7a9026ae44861da53",
+            "commit": "321b39b7757004c7075b00692cd6dbcf79a0a803",
             "path": "packages/dsh-plugin-langsmith"
           },
           "engines": {
@@ -133,7 +133,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/risaddex/dsh-plugins",
-            "commit": "44ad220d244ab6f5e202a8c7a9026ae44861da53",
+            "commit": "321b39b7757004c7075b00692cd6dbcf79a0a803",
             "path": "packages/dsh-plugin-linear"
           },
           "engines": {
@@ -174,12 +174,12 @@
       },
       "versions": [
         {
-          "version": "0.2.0",
-          "publishTimestamp": 1794078366,
+          "version": "0.3.0",
+          "publishTimestamp": 1794243709,
           "source": {
             "type": "git",
             "url": "https://github.com/risaddex/dsh-plugins",
-            "commit": "44ad220d244ab6f5e202a8c7a9026ae44861da53",
+            "commit": "321b39b7757004c7075b00692cd6dbcf79a0a803",
             "path": "packages/dsh-plugin-pr-autofix"
           },
           "engines": {
@@ -220,12 +220,12 @@
       },
       "versions": [
         {
-          "version": "0.1.0",
-          "publishTimestamp": 1794079684,
+          "version": "0.1.1",
+          "publishTimestamp": 1794243631,
           "source": {
             "type": "git",
             "url": "https://github.com/risaddex/dsh-plugins",
-            "commit": "44ad220d244ab6f5e202a8c7a9026ae44861da53",
+            "commit": "321b39b7757004c7075b00692cd6dbcf79a0a803",
             "path": "packages/dsh-plugin-secure-env-ingress"
           },
           "engines": {
