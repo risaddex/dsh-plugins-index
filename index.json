@@ -51,10 +51,59 @@
           "en": "Memory",
           "pt-br": "Memória"
         }
+      },
+      "permissions": {
+        "title": {
+          "en": "Permissions",
+          "pt-br": "Permissões"
+        }
       }
     }
   },
   "plugins": [
+    {
+      "name": "dsh-plugin-auto-review-allow",
+      "title": {
+        "en": "Auto review allowlist",
+        "pt-br": "Allowlist do auto review"
+      },
+      "description": {
+        "en": "Exempt named tools from the experimental Auto review gate, with a reason per entry, plus per-session grants granted from a three-option card and revocable from settings.",
+        "pt-br": "Isenta tools nomeadas do gate experimental Auto review, com razão obrigatória por entrada, mais grants por sessão concedidos num card de três opções e revogáveis nas configurações."
+      },
+      "author": "risaddex",
+      "homepage": "https://github.com/risaddex/dsh-plugins/tree/main/packages/dsh-plugin-auto-review-allow",
+      "repository": {
+        "url": "https://github.com/risaddex/dsh-plugins",
+        "directory": "packages/dsh-plugin-auto-review-allow"
+      },
+      "metadata": {
+        "category": "permissions",
+        "keywords": [
+          "dsh-plugin",
+          "deepseek-harness",
+          "auto-review",
+          "permissions",
+          "approval",
+          "allowlist"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1794600182,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/risaddex/dsh-plugins",
+            "commit": "90fc9daa4d538c277267345d248da682d1393176",
+            "path": "packages/dsh-plugin-auto-review-allow"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.5"
+          }
+        }
+      ]
+    },
     {
       "name": "dsh-plugin-langsmith",
       "title": {
@@ -85,11 +134,11 @@
       "versions": [
         {
           "version": "0.1.0",
-          "publishTimestamp": 1793735343,
+          "publishTimestamp": 1794331515,
           "source": {
             "type": "git",
             "url": "https://github.com/risaddex/dsh-plugins",
-            "commit": "321b39b7757004c7075b00692cd6dbcf79a0a803",
+            "commit": "90fc9daa4d538c277267345d248da682d1393176",
             "path": "packages/dsh-plugin-langsmith"
           },
           "engines": {
@@ -129,12 +178,98 @@
       "versions": [
         {
           "version": "0.1.0",
-          "publishTimestamp": 1793807278,
+          "publishTimestamp": 1794331515,
           "source": {
             "type": "git",
             "url": "https://github.com/risaddex/dsh-plugins",
-            "commit": "321b39b7757004c7075b00692cd6dbcf79a0a803",
+            "commit": "90fc9daa4d538c277267345d248da682d1393176",
             "path": "packages/dsh-plugin-linear"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.5"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-plugin-ombrello-toolset",
+      "title": {
+        "en": "Ombrello toolset",
+        "pt-br": "Toolset Ombrello"
+      },
+      "description": {
+        "en": "Connects the Ombrello toolset MCP server hosted on the Obot gateway and adds OAuth 2.0 sign-in with automatic token refresh. The gateway tools appear as mcp__ombrello_toolset__* and the bearer token is kept in the credentials store, never in configuration.",
+        "pt-br": "Conecta o servidor MCP do toolset Ombrello hospedado no gateway Obot e acrescenta login OAuth 2.0 com renovação automática do token. As ferramentas do gateway aparecem como mcp__ombrello_toolset__* e o token fica no cofre de credenciais, nunca na configuração."
+      },
+      "author": "risaddex",
+      "homepage": "https://github.com/risaddex/dsh-plugins/tree/main/packages/dsh-plugin-ombrello-toolset",
+      "repository": {
+        "url": "https://github.com/risaddex/dsh-plugins",
+        "directory": "packages/dsh-plugin-ombrello-toolset"
+      },
+      "metadata": {
+        "category": "tools",
+        "keywords": [
+          "dsh-plugin",
+          "deepseek-harness",
+          "mcp",
+          "obot",
+          "ombrello",
+          "oauth"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1794597808,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/risaddex/dsh-plugins",
+            "commit": "90fc9daa4d538c277267345d248da682d1393176",
+            "path": "packages/dsh-plugin-ombrello-toolset"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.5"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-plugin-pencil",
+      "title": {
+        "en": "Pencil design canvas",
+        "pt-br": "Canvas Pencil"
+      },
+      "description": {
+        "en": "Connects the Pencil app (pen.dev) over stdio MCP so the agent can read, generate and validate .pen designs in the document open in the app. The tools appear as mcp__pencil__get_app_state, get_style, read_skill, execute, browser and save. Requires Pen.app running; tool calls stay on this machine.",
+        "pt-br": "Conecta o app Pencil (pen.dev) por MCP stdio para o agente ler, gerar e validar designs .pen do documento aberto no app. As tools aparecem como mcp__pencil__get_app_state, get_style, read_skill, execute, browser e save. Exige o Pen.app aberto; as chamadas ficam nesta máquina."
+      },
+      "author": "risaddex",
+      "homepage": "https://github.com/risaddex/dsh-plugins/tree/main/packages/dsh-plugin-pencil",
+      "repository": {
+        "url": "https://github.com/risaddex/dsh-plugins",
+        "directory": "packages/dsh-plugin-pencil"
+      },
+      "metadata": {
+        "category": "tools",
+        "keywords": [
+          "dsh-plugin",
+          "deepseek-harness",
+          "mcp",
+          "pencil",
+          "pen.dev",
+          "design"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1794597808,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/risaddex/dsh-plugins",
+            "commit": "90fc9daa4d538c277267345d248da682d1393176",
+            "path": "packages/dsh-plugin-pencil"
           },
           "engines": {
             "dsh": ">=0.2.1-rc.5"
@@ -149,8 +284,8 @@
         "pt-br": "PR Auto-fix"
       },
       "description": {
-        "en": "Watches the session's pull request on GitHub (github.com or Enterprise) or a self-hosted Gitea instance and wakes the agent with a <ci-monitor-event> on CI failures, merge conflicts and new review comments. Adds a PR Auto-fix tab to the right sidebar; complements dsh-git-manager.",
-        "pt-br": "Monitora o pull request da sessão no GitHub (github.com ou Enterprise) ou em uma instância Gitea e acorda o agente com um <ci-monitor-event> em falha de CI, conflito de merge e novos comentários de review. Adiciona a aba PR Auto-fix no sidebar direito; complementa o dsh-git-manager."
+        "en": "Watches the session's pull request on GitHub (github.com or Enterprise) or a self-hosted Gitea instance (gt CLI on Gitea 28+, tea fallback) and wakes the agent with a <ci-monitor-event> on CI failures, merge conflicts and new review comments. Adds a PR Auto-fix tab to the right sidebar; complements dsh-git-manager.",
+        "pt-br": "Monitora o pull request da sessão no GitHub (github.com ou Enterprise) ou em uma instância Gitea (CLI gt no Gitea 28+, tea como fallback) e acorda o agente com um <ci-monitor-event> em falha de CI, conflito de merge e novos comentários de review. Adiciona a aba PR Auto-fix no sidebar direito; complementa o dsh-git-manager."
       },
       "author": "risaddex",
       "homepage": "https://github.com/risaddex/dsh-plugins/tree/main/packages/dsh-plugin-pr-autofix",
@@ -169,17 +304,18 @@
           "autofix",
           "gitea",
           "tea",
-          "code-review"
+          "code-review",
+          "gitea-cli"
         ]
       },
       "versions": [
         {
-          "version": "0.3.0",
-          "publishTimestamp": 1794243709,
+          "version": "0.4.0",
+          "publishTimestamp": 1794331515,
           "source": {
             "type": "git",
             "url": "https://github.com/risaddex/dsh-plugins",
-            "commit": "321b39b7757004c7075b00692cd6dbcf79a0a803",
+            "commit": "90fc9daa4d538c277267345d248da682d1393176",
             "path": "packages/dsh-plugin-pr-autofix"
           },
           "engines": {
@@ -221,11 +357,11 @@
       "versions": [
         {
           "version": "0.1.1",
-          "publishTimestamp": 1794243631,
+          "publishTimestamp": 1794331515,
           "source": {
             "type": "git",
             "url": "https://github.com/risaddex/dsh-plugins",
-            "commit": "321b39b7757004c7075b00692cd6dbcf79a0a803",
+            "commit": "90fc9daa4d538c277267345d248da682d1393176",
             "path": "packages/dsh-plugin-secure-env-ingress"
           },
           "engines": {
