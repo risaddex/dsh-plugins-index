@@ -95,7 +95,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/risaddex/dsh-plugins",
-            "commit": "90fc9daa4d538c277267345d248da682d1393176",
+            "commit": "00948e7beb93edda8fda92f11f127b579769f8e6",
             "path": "packages/dsh-plugin-auto-review-allow"
           },
           "engines": {
@@ -138,7 +138,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/risaddex/dsh-plugins",
-            "commit": "90fc9daa4d538c277267345d248da682d1393176",
+            "commit": "00948e7beb93edda8fda92f11f127b579769f8e6",
             "path": "packages/dsh-plugin-langsmith"
           },
           "engines": {
@@ -182,7 +182,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/risaddex/dsh-plugins",
-            "commit": "90fc9daa4d538c277267345d248da682d1393176",
+            "commit": "00948e7beb93edda8fda92f11f127b579769f8e6",
             "path": "packages/dsh-plugin-linear"
           },
           "engines": {
@@ -225,7 +225,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/risaddex/dsh-plugins",
-            "commit": "90fc9daa4d538c277267345d248da682d1393176",
+            "commit": "00948e7beb93edda8fda92f11f127b579769f8e6",
             "path": "packages/dsh-plugin-ombrello-toolset"
           },
           "engines": {
@@ -268,7 +268,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/risaddex/dsh-plugins",
-            "commit": "90fc9daa4d538c277267345d248da682d1393176",
+            "commit": "00948e7beb93edda8fda92f11f127b579769f8e6",
             "path": "packages/dsh-plugin-pencil"
           },
           "engines": {
@@ -315,7 +315,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/risaddex/dsh-plugins",
-            "commit": "90fc9daa4d538c277267345d248da682d1393176",
+            "commit": "00948e7beb93edda8fda92f11f127b579769f8e6",
             "path": "packages/dsh-plugin-pr-autofix"
           },
           "engines": {
@@ -361,7 +361,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/risaddex/dsh-plugins",
-            "commit": "90fc9daa4d538c277267345d248da682d1393176",
+            "commit": "00948e7beb93edda8fda92f11f127b579769f8e6",
             "path": "packages/dsh-plugin-secure-env-ingress"
           },
           "engines": {
@@ -407,6 +407,47 @@
           },
           "engines": {
             "dsh": "0.2.1-rc.5 || 0.2.2-rc.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-skills-deck",
+      "title": {
+        "en": "Skills deck",
+        "pt-br": "Skills deck"
+      },
+      "description": {
+        "en": "Bundles Matt Pocock's engineering and productivity skills and an issue-tracker deck: maps, specs and tickets on GitHub, GitLab or local Markdown, with English as the default language.",
+        "pt-br": "Traz as skills de engenharia e produtividade de Matt Pocock e um deck de issues: mapas, specs e tickets no GitHub, GitLab ou Markdown local, com inglês como idioma padrão."
+      },
+      "author": "risaddex",
+      "homepage": "https://github.com/risaddex/dsh-skills-deck",
+      "repository": {
+        "url": "https://github.com/risaddex/dsh-skills-deck"
+      },
+      "metadata": {
+        "category": "tools",
+        "keywords": [
+          "dsh-plugin",
+          "deepseek-harness",
+          "skills",
+          "mattpocock",
+          "issue-tracker",
+          "wayfinder"
+        ]
+      },
+      "versions": [
+        {
+          "version": "2.0.0-alpha.0",
+          "publishTimestamp": 1794846179,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/risaddex/dsh-skills-deck",
+            "commit": "ae32d9b10508cf3a6c83ebd86421d906f5e3dbd7"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2"
           }
         }
       ]
