@@ -5,8 +5,8 @@
     "pt-br": "Plugins DSH do risaddex"
   },
   "description": {
-    "en": "Personal DeepSeek Harness plugins: LangSmith tracing, pull-request auto-fix, Linear issues in the sidebar and a notification surface.",
-    "pt-br": "Plugins pessoais do DeepSeek Harness: tracing no LangSmith, auto-fix de pull requests, issues do Linear no sidebar e uma superfície de notificações."
+    "en": "Personal DeepSeek Harness plugins: LangSmith tracing, pull-request auto-fix and a notification surface.",
+    "pt-br": "Plugins pessoais do DeepSeek Harness: tracing no LangSmith, auto-fix de pull requests e uma superfície de notificações."
   },
   "metadata": {
     "categories": {
@@ -95,7 +95,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/risaddex/dsh-plugins",
-            "commit": "a7480c15ff6c3d67598d22bc2eb87073db6f2ad6",
+            "commit": "9edb45afc834631ff616f6a4f6b3d07acea73320",
             "path": "packages/dsh-plugin-auto-review-allow"
           },
           "engines": {
@@ -138,52 +138,8 @@
           "source": {
             "type": "git",
             "url": "https://github.com/risaddex/dsh-plugins",
-            "commit": "a7480c15ff6c3d67598d22bc2eb87073db6f2ad6",
+            "commit": "9edb45afc834631ff616f6a4f6b3d07acea73320",
             "path": "packages/dsh-plugin-langsmith"
-          },
-          "engines": {
-            "dsh": ">=0.2.1-rc.5"
-          }
-        }
-      ]
-    },
-    {
-      "name": "dsh-plugin-linear",
-      "title": {
-        "en": "Linear issues",
-        "pt-br": "Issues do Linear"
-      },
-      "description": {
-        "en": "Adds a Linear entry to the left sidebar: the newest issues assigned to you and the issues waiting in review states, from every configured Linear workspace (multi-account). Also gives the agent linear_accounts / linear_issues / linear_issue with explicit alias:IDENTIFIER refs.",
-        "pt-br": "Adiciona uma entrada Linear no sidebar esquerdo: as últimas issues atribuídas a você e as issues em estados de revisão, de todos os workspaces Linear configurados (multi-conta). Também expõe ao agente as ferramentas linear_accounts / linear_issues / linear_issue com refs explícitas alias:IDENTIFIER."
-      },
-      "author": "risaddex",
-      "homepage": "https://github.com/risaddex/dsh-plugins/tree/main/packages/dsh-plugin-linear",
-      "repository": {
-        "url": "https://github.com/risaddex/dsh-plugins",
-        "directory": "packages/dsh-plugin-linear"
-      },
-      "metadata": {
-        "category": "tools",
-        "keywords": [
-          "dsh-plugin",
-          "deepseek-harness",
-          "linear",
-          "issues",
-          "review",
-          "multi-workspace",
-          "sidebar"
-        ]
-      },
-      "versions": [
-        {
-          "version": "0.1.0",
-          "publishTimestamp": 1794331515,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/risaddex/dsh-plugins",
-            "commit": "a7480c15ff6c3d67598d22bc2eb87073db6f2ad6",
-            "path": "packages/dsh-plugin-linear"
           },
           "engines": {
             "dsh": ">=0.2.1-rc.5"
@@ -225,7 +181,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/risaddex/dsh-plugins",
-            "commit": "a7480c15ff6c3d67598d22bc2eb87073db6f2ad6",
+            "commit": "9edb45afc834631ff616f6a4f6b3d07acea73320",
             "path": "packages/dsh-plugin-ombrello-toolset"
           },
           "engines": {
@@ -268,7 +224,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/risaddex/dsh-plugins",
-            "commit": "a7480c15ff6c3d67598d22bc2eb87073db6f2ad6",
+            "commit": "9edb45afc834631ff616f6a4f6b3d07acea73320",
             "path": "packages/dsh-plugin-pencil"
           },
           "engines": {
@@ -315,7 +271,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/risaddex/dsh-plugins",
-            "commit": "a7480c15ff6c3d67598d22bc2eb87073db6f2ad6",
+            "commit": "9edb45afc834631ff616f6a4f6b3d07acea73320",
             "path": "packages/dsh-plugin-pr-autofix"
           },
           "engines": {
@@ -361,7 +317,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/risaddex/dsh-plugins",
-            "commit": "a7480c15ff6c3d67598d22bc2eb87073db6f2ad6",
+            "commit": "9edb45afc834631ff616f6a4f6b3d07acea73320",
             "path": "packages/dsh-plugin-secure-env-ingress"
           },
           "engines": {
