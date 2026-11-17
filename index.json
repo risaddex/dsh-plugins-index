@@ -95,7 +95,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/risaddex/dsh-plugins",
-            "commit": "7c96bb8a38f2c3a5dd0e486caa6f6ab6aecd4032",
+            "commit": "5efed4288aea8ad3096f592417c4f1e20e0122f6",
             "path": "packages/dsh-plugin-auto-review-allow"
           },
           "engines": {
@@ -138,7 +138,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/risaddex/dsh-plugins",
-            "commit": "7c96bb8a38f2c3a5dd0e486caa6f6ab6aecd4032",
+            "commit": "5efed4288aea8ad3096f592417c4f1e20e0122f6",
             "path": "packages/dsh-plugin-langsmith"
           },
           "engines": {
@@ -181,7 +181,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/risaddex/dsh-plugins",
-            "commit": "7c96bb8a38f2c3a5dd0e486caa6f6ab6aecd4032",
+            "commit": "5efed4288aea8ad3096f592417c4f1e20e0122f6",
             "path": "packages/dsh-plugin-ombrello-toolset"
           },
           "engines": {
@@ -224,7 +224,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/risaddex/dsh-plugins",
-            "commit": "7c96bb8a38f2c3a5dd0e486caa6f6ab6aecd4032",
+            "commit": "5efed4288aea8ad3096f592417c4f1e20e0122f6",
             "path": "packages/dsh-plugin-pencil"
           },
           "engines": {
@@ -271,7 +271,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/risaddex/dsh-plugins",
-            "commit": "7c96bb8a38f2c3a5dd0e486caa6f6ab6aecd4032",
+            "commit": "5efed4288aea8ad3096f592417c4f1e20e0122f6",
             "path": "packages/dsh-plugin-pr-autofix"
           },
           "engines": {
@@ -313,11 +313,11 @@
       "versions": [
         {
           "version": "0.1.2",
-          "publishTimestamp": 1794953122,
+          "publishTimestamp": 1794953450,
           "source": {
             "type": "git",
             "url": "https://github.com/risaddex/dsh-plugins",
-            "commit": "7c96bb8a38f2c3a5dd0e486caa6f6ab6aecd4032",
+            "commit": "5efed4288aea8ad3096f592417c4f1e20e0122f6",
             "path": "packages/dsh-plugin-secure-env-ingress"
           },
           "engines": {
