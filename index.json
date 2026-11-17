@@ -399,14 +399,11 @@
       "versions": [
         {
           "version": "0.13.1",
-          "publishTimestamp": 1793893574,
+          "publishTimestamp": 1790985745,
           "source": {
             "type": "git",
             "url": "https://github.com/risaddex/dsh-notifier",
-            "commit": "18fa2bc9d7094449e9aeb5d2a0936c9fd7e3e9ef"
-          },
-          "engines": {
-            "dsh": "0.2.1-rc.5 || 0.2.2-rc.1"
+            "commit": "9d69dd7a8908fcfec6e20d92d56509764a8f23ec"
           }
         }
       ]
