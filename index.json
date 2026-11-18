@@ -95,11 +95,55 @@
           "source": {
             "type": "git",
             "url": "https://github.com/risaddex/dsh-plugins",
-            "commit": "5efed4288aea8ad3096f592417c4f1e20e0122f6",
+            "commit": "bc2012b085e4a9e79d93ee1dae5c96886a76d00d",
             "path": "packages/dsh-plugin-auto-review-allow"
           },
           "engines": {
             "dsh": ">=0.2.1-rc.5"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-plugin-context-otel",
+      "title": {
+        "en": "Context OTEL",
+        "pt-br": "Contexto em OTEL"
+      },
+      "description": {
+        "en": "Send one trace per turn to your OTLP collector: how big each request's context is, cache hit rate, tool result sizes and nested run_code calls. Sizes and names only, never content.",
+        "pt-br": "Envia um trace por turn ao seu coletor OTLP: tamanho do contexto de cada request, taxa de cache, tamanho dos resultados de tool e chamadas aninhadas do run_code. Só tamanhos e nomes, nunca conteúdo."
+      },
+      "author": "risaddex",
+      "homepage": "https://github.com/risaddex/dsh-plugins/tree/main/packages/dsh-plugin-context-otel",
+      "repository": {
+        "url": "https://github.com/risaddex/dsh-plugins",
+        "directory": "packages/dsh-plugin-context-otel"
+      },
+      "metadata": {
+        "category": "observability",
+        "keywords": [
+          "dsh-plugin",
+          "deepseek-harness",
+          "opentelemetry",
+          "otlp",
+          "tracing",
+          "context",
+          "observability"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1794960114,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/risaddex/dsh-plugins",
+            "commit": "bc2012b085e4a9e79d93ee1dae5c96886a76d00d",
+            "path": "packages/dsh-plugin-context-otel"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.3"
           }
         }
       ]
@@ -138,7 +182,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/risaddex/dsh-plugins",
-            "commit": "5efed4288aea8ad3096f592417c4f1e20e0122f6",
+            "commit": "bc2012b085e4a9e79d93ee1dae5c96886a76d00d",
             "path": "packages/dsh-plugin-langsmith"
           },
           "engines": {
@@ -181,7 +225,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/risaddex/dsh-plugins",
-            "commit": "5efed4288aea8ad3096f592417c4f1e20e0122f6",
+            "commit": "bc2012b085e4a9e79d93ee1dae5c96886a76d00d",
             "path": "packages/dsh-plugin-ombrello-toolset"
           },
           "engines": {
@@ -224,7 +268,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/risaddex/dsh-plugins",
-            "commit": "5efed4288aea8ad3096f592417c4f1e20e0122f6",
+            "commit": "bc2012b085e4a9e79d93ee1dae5c96886a76d00d",
             "path": "packages/dsh-plugin-pencil"
           },
           "engines": {
@@ -271,7 +315,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/risaddex/dsh-plugins",
-            "commit": "5efed4288aea8ad3096f592417c4f1e20e0122f6",
+            "commit": "bc2012b085e4a9e79d93ee1dae5c96886a76d00d",
             "path": "packages/dsh-plugin-pr-autofix"
           },
           "engines": {
@@ -317,11 +361,54 @@
           "source": {
             "type": "git",
             "url": "https://github.com/risaddex/dsh-plugins",
-            "commit": "5efed4288aea8ad3096f592417c4f1e20e0122f6",
+            "commit": "bc2012b085e4a9e79d93ee1dae5c96886a76d00d",
             "path": "packages/dsh-plugin-secure-env-ingress"
           },
           "engines": {
             "dsh": ">=0.2.1-rc.5"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-plugin-tool-diet",
+      "title": {
+        "en": "Tool diet",
+        "pt-br": "Dieta de tools"
+      },
+      "description": {
+        "en": "Hide tool schemas nobody calls (legacy aliases by default, plus any tool you name) so they stop riding in every model request.",
+        "pt-br": "Esconde schemas de tools que ninguém chama (aliases legados por padrão, mais as tools que você nomear) para que parem de viajar em todo request ao modelo."
+      },
+      "author": "risaddex",
+      "homepage": "https://github.com/risaddex/dsh-plugins/tree/main/packages/dsh-plugin-tool-diet",
+      "repository": {
+        "url": "https://github.com/risaddex/dsh-plugins",
+        "directory": "packages/dsh-plugin-tool-diet"
+      },
+      "metadata": {
+        "category": "tools",
+        "keywords": [
+          "dsh-plugin",
+          "deepseek-harness",
+          "tools",
+          "context",
+          "token-budget",
+          "tool-schemas"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1794958170,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/risaddex/dsh-plugins",
+            "commit": "bc2012b085e4a9e79d93ee1dae5c96886a76d00d",
+            "path": "packages/dsh-plugin-tool-diet"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.3"
           }
         }
       ]
