@@ -95,7 +95,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/risaddex/dsh-plugins",
-            "commit": "4fde5a7150c721646f33229eb47ff3ffb5460ec4",
+            "commit": "86b2b3991402290a6000522d53d5b89347fb612a",
             "path": "packages/dsh-plugin-auto-review-allow"
           },
           "engines": {
@@ -139,7 +139,20 @@
           "source": {
             "type": "git",
             "url": "https://github.com/risaddex/dsh-plugins",
-            "commit": "4fde5a7150c721646f33229eb47ff3ffb5460ec4",
+            "commit": "86b2b3991402290a6000522d53d5b89347fb612a",
+            "path": "packages/dsh-plugin-context-otel"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.3"
+          }
+        },
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1794960114,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/risaddex/dsh-plugins",
+            "commit": "bc2012b085e4a9e79d93ee1dae5c96886a76d00d",
             "path": "packages/dsh-plugin-context-otel"
           },
           "engines": {
@@ -182,7 +195,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/risaddex/dsh-plugins",
-            "commit": "4fde5a7150c721646f33229eb47ff3ffb5460ec4",
+            "commit": "86b2b3991402290a6000522d53d5b89347fb612a",
             "path": "packages/dsh-plugin-langsmith"
           },
           "engines": {
@@ -225,7 +238,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/risaddex/dsh-plugins",
-            "commit": "4fde5a7150c721646f33229eb47ff3ffb5460ec4",
+            "commit": "86b2b3991402290a6000522d53d5b89347fb612a",
             "path": "packages/dsh-plugin-ombrello-toolset"
           },
           "engines": {
@@ -268,7 +281,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/risaddex/dsh-plugins",
-            "commit": "4fde5a7150c721646f33229eb47ff3ffb5460ec4",
+            "commit": "86b2b3991402290a6000522d53d5b89347fb612a",
             "path": "packages/dsh-plugin-pencil"
           },
           "engines": {
@@ -315,7 +328,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/risaddex/dsh-plugins",
-            "commit": "4fde5a7150c721646f33229eb47ff3ffb5460ec4",
+            "commit": "86b2b3991402290a6000522d53d5b89347fb612a",
             "path": "packages/dsh-plugin-pr-autofix"
           },
           "engines": {
@@ -361,7 +374,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/risaddex/dsh-plugins",
-            "commit": "4fde5a7150c721646f33229eb47ff3ffb5460ec4",
+            "commit": "86b2b3991402290a6000522d53d5b89347fb612a",
             "path": "packages/dsh-plugin-secure-env-ingress"
           },
           "engines": {
@@ -404,7 +417,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/risaddex/dsh-plugins",
-            "commit": "4fde5a7150c721646f33229eb47ff3ffb5460ec4",
+            "commit": "86b2b3991402290a6000522d53d5b89347fb612a",
             "path": "packages/dsh-plugin-tool-diet"
           },
           "engines": {
