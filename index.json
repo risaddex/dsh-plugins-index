@@ -471,8 +471,8 @@
         "pt-br": "Skills deck"
       },
       "description": {
-        "en": "Bundles Matt Pocock's engineering and productivity skills and an issue-tracker deck: maps, specs and tickets on GitHub, GitLab or local Markdown, with English as the default language.",
-        "pt-br": "Traz as skills de engenharia e produtividade de Matt Pocock e um deck de issues: mapas, specs e tickets no GitHub, GitLab ou Markdown local, com inglês como idioma padrão."
+        "en": "Bundles Matt Pocock's engineering and productivity skills and an issue-tracker deck: maps, specs and tickets on GitHub, GitLab, local Markdown or Linear, with English as the default language.",
+        "pt-br": "Traz as skills de engenharia e produtividade de Matt Pocock e um deck de issues: mapas, specs e tickets no GitHub, GitLab, Markdown local ou Linear, com inglês como idioma padrão."
       },
       "author": "risaddex",
       "homepage": "https://github.com/risaddex/dsh-skills-deck",
@@ -487,10 +487,23 @@
           "skills",
           "mattpocock",
           "issue-tracker",
-          "wayfinder"
+          "wayfinder",
+          "linear"
         ]
       },
       "versions": [
+        {
+          "version": "2.0.0",
+          "publishTimestamp": 1795026296,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/risaddex/dsh-skills-deck",
+            "commit": "ddd3d761379421d932f4939033e832ccf5bfb4d9"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2"
+          }
+        },
         {
           "version": "2.0.0-alpha.1",
           "publishTimestamp": 1794850116,
