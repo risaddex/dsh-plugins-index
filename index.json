@@ -493,12 +493,12 @@
       },
       "versions": [
         {
-          "version": "2.0.0",
-          "publishTimestamp": 1795026296,
+          "version": "2.1.0",
+          "publishTimestamp": 1795121434,
           "source": {
             "type": "git",
             "url": "https://github.com/risaddex/dsh-skills-deck",
-            "commit": "ddd3d761379421d932f4939033e832ccf5bfb4d9"
+            "commit": "8b3fcd246dda6b8039f41e3247d27d69068d52a4"
           },
           "engines": {
             "dsh": ">=0.2.0-rc.2"
