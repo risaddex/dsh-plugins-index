@@ -17,7 +17,7 @@ HTTP without credentials, while the plugin repositories are private.
 | [dsh-plugin-secure-env-ingress](https://github.com/risaddex/dsh-plugins) | 0.1.2 | One-use HTTPS forms that carry a secret from the human to the dsh-vault without ever entering chat, tool output or the model context. Adds secure_env_request / secure_env_await / secure_env_status / secure_env_cancel / secure_operation and writes through the vault's own tools, so its encryption and approval policy still apply. |
 | [dsh-plugin-tool-diet](https://github.com/risaddex/dsh-plugins) | 0.1.0 | Hide tool schemas nobody calls (legacy aliases by default, plus any tool you name) so they stop riding in every model request. |
 | [dsh-notifier](https://github.com/risaddex/dsh-notifier) | 0.13.1 | Outbound notifications across 28 chat and push channels plus 6 inbound control channels, with a native Notify & Control UI and live outbound configuration. |
-| [dsh-skills-deck](https://github.com/risaddex/dsh-skills-deck) | 2.1.1 | Bundles Matt Pocock's engineering and productivity skills and an issue-tracker deck: maps, specs and tickets on GitHub, GitLab, local Markdown or Linear, with English as the default language. |
+| [dsh-skills-deck](https://github.com/risaddex/dsh-skills-deck) | 2.1.2 | Bundles Matt Pocock's engineering and productivity skills and an issue-tracker deck: maps, specs and tickets on GitHub, GitLab, local Markdown or Linear, with English as the default language. |
 | [dsh-plugin-ai-memory](https://github.com/risaddex/dsh-plugin-ai-memory) | 0.2.0 | Runs the ai-memory lifecycle hooks, wires the ai-memory MCP server (local or remote workstream) and adds a left-rail panel to configure and verify the connection. |
 
 ## Add it to DeepSeek Harness
