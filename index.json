@@ -546,6 +546,15 @@
       },
       "versions": [
         {
+          "version": "0.3.0",
+          "publishTimestamp": 1795612258,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/risaddex/dsh-plugin-ai-memory",
+            "commit": "3f9c766d32d444119ec5e34fdb9b4a5972d72212"
+          }
+        },
+        {
           "version": "0.2.0",
           "publishTimestamp": 1794079816,
           "source": {

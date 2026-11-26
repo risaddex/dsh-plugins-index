@@ -18,7 +18,7 @@ HTTP without credentials, while the plugin repositories are private.
 | [dsh-plugin-tool-diet](https://github.com/risaddex/dsh-plugins) | 0.1.0 | Hide tool schemas nobody calls (legacy aliases by default, plus any tool you name) so they stop riding in every model request. |
 | [dsh-notifier](https://github.com/risaddex/dsh-notifier) | 0.13.1 | Outbound notifications across 28 chat and push channels plus 6 inbound control channels, with a native Notify & Control UI and live outbound configuration. |
 | [dsh-skills-deck](https://github.com/risaddex/dsh-skills-deck) | 2.1.2 | Bundles Matt Pocock's engineering and productivity skills and an issue-tracker deck: maps, specs and tickets on GitHub, GitLab, local Markdown or Linear, with English as the default language. |
-| [dsh-plugin-ai-memory](https://github.com/risaddex/dsh-plugin-ai-memory) | 0.2.0 | Runs the ai-memory lifecycle hooks, wires the ai-memory MCP server (local or remote workstream) and adds a left-rail panel to configure and verify the connection. |
+| [dsh-plugin-ai-memory](https://github.com/risaddex/dsh-plugin-ai-memory) | 0.3.0 | Runs the ai-memory lifecycle hooks, wires the ai-memory MCP server (local or remote workstream) and adds a left-rail panel to configure and verify the connection. |
 
 ## Add it to DeepSeek Harness
 
